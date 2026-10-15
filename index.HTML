@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portal Timnas Indonesia, foto pemain, audio, video, dan informasi pertandingan.">
+
+    <title>Timnas Indonesia: Kita Garuda</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #d71920;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        nav {
+            background: #222;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #c8102e;
+        }
+
+        .galeri {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        figure {
+            flex: 1 1 250px;
+            max-width: 450px;
+            margin: 0;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            padding-top: 8px;
+            color: #555;
+        }
+
+        audio {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 650px;
+            height: auto;
+            background: #000;
+            border-radius: 8px;
+        }
+
+        input, textarea {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #c8102e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            cursor: pointer;
+        }
+
+        .pesan-info {
+            color: #555;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 5px;
+            }
+
+            main {
+                padding: 12px;
+            }
+
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Selamat Datang di Portal Timnas Indonesia</h1>
+    <p>Semangat, perjuangan, dan kebanggaan Indonesia. Kita Garuda!</p>
+</header>
+
+<nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#pemain">Pemain</a>
+    <a href="#audio">Audio</a>
+    <a href="#video">Video</a>
+    <a href="#jadwal">Jadwal</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<main>
+
+    <section id="beranda">
+        <h2>Tentang Timnas Indonesia</h2>
+        <p>
+            Selamat datang di halaman informasi Timnas Indonesia.
+            Dengan semangat pantang menyerah dan dukungan para suporter,
+            Timnas Indonesia berjuang untuk mengharumkan nama bangsa
+            di kancah sepak bola internasional.
+        </p>
+    </section>
+
+    <section id="pemain">
+        <h2>Galeri Foto Timnas Indonesia</h2>
+
+        <div class="galeri">
+            <figure>
+                <img src="https://thumbs.tvonenews.com/thumbnail/2024/09/07/66dc57ecbec84-skuad-timnas-indonesia-di-kualifikasi-piala-dunia-2026_1265_711.jpg"
+                     alt="Foto skuad Timnas Indonesia">
+                <figcaption>Skuad Timnas Indonesia</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://www.harapanrakyat.com/wp-content/uploads/2025/07/Kapten-Timnas-Indonesia-Jay-Idzes-Dilirik-5-Klub-Top-Eropa.jpg"
+                     alt="Foto Jay Idzes">
+                <figcaption>Jay Idzes</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://garuda.tv/wp-content/uploads/2025/06/Selebrasi-Ole-Romeny-Dok.-Istimewa.jpg"
+                     alt="Foto Ole Romeny">
+                <figcaption>Ole Romeny</figcaption>
+            </figure>
+        </div>
+
+        <p class="pesan-info">
+            
+        </p>
+    </section>
+
+    <section id="audio">
+        <h2>Dengarkan Audio</h2>
+        <p>Dengarkan audio yang tersedia pada halaman ini.</p>
+
+        <audio controls preload="metadata">
+            <source src="anthem.mp3" type="audio/mp3">
+            
+        </audio>
+
+        <p class="pesan-info">
+            
+        </p>
+    </section>
+
+    <section id="video">
+        <h2>Video Highlight Pertandingan</h2>
+
+        <video controls preload="metadata">
+            <source src="HIGHLIGHTS _ Indonesia vs Thailand _ FIFA ASEAN Cup 2026™ (2).mp4" type="video/mp4" type="video/mp4">
+            
+        </video>
+
+        <p class="pesan-info">
+            
+        </p>
+    </section>
+
+    <section id="jadwal">
+        <h2>Jadwal Pertandingan Mendatang</h2>
+
+        <ul>
+            <li>
+                12 Maret 2029, Stadion Utama Gelora Bung Karno, Jakarta.
+                <a href="https://example.com/tiket-timnas-jakarta"
+                   target="_blank" rel="noopener noreferrer">
+                    
+                </a>
+            </li>
+
+            <li>
+                14 Maret 2029, Stadion Gelora Bung Tomo, Surabaya.
+                <a href="https://example.com/tiket-timnas-surabaya"
+                   target="_blank" rel="noopener noreferrer">
+                    
+                </a>
+            </li>
+        </ul>
+
+        <p class="pesan-info">
+         
+        </p>
+    </section>
+
+    <section id="sosial">
+        <h2>Media Sosial</h2>
+        <p>Ikuti kanal resmi Timnas Indonesia dan PSSI untuk informasi terbaru.</p>
+
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/timnasindonesia/"
+                   target="_blank" rel="noopener noreferrer">
+                    Instagram Timnas Indonesia
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pssi.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    Situs resmi PSSI
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+
+        <form id="formKontak">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subjek">Subjek:</label>
+            <input type="text" id="subjek" name="subjek" required>
+
+            <label for="pesan">Pesan atau Dukungan:</label>
+            <textarea id="pesan" name="pesan"
+                      rows="5" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <p id="statusForm" role="status"></p>
+
+        <p class="pesan-info">
+            Formulir ini hanya contoh tampilan. Pesan belum dikirim ke PSSI
+            karena belum terhubung ke server atau layanan pengiriman formulir.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Portal Timnas Indonesia. Kita Garuda!</p>
+</footer>
+
+<script>
+    document.getElementById("formKontak").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        document.getElementById("statusForm").textContent =
+            "Formulir berhasil diperiksa, tetapi belum dikirim ke server.";
+
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
